@@ -1,0 +1,5 @@
+# DATEVAR=date +20%y_%m_%d_%H-%M-%S
+# * * * * * cp -R /var/www/html/storage /backup/backup-$($DATEVAR)
+
+* * * * * /var/www/html/backup.sh
+# Don't remove the empty line at the end of this file. It is required to run the cron job
